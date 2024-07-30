@@ -1,0 +1,44 @@
+.testimonials {
+  background-color: #000099;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.testimonials > h1 {
+  text-align: center;
+}
+
+.testimonials__set {
+  margin: 15px 10px;
+  border: 2px solid #ffffff;
+  max-height: 100vh;
+
+}
+
+.testimonials__info {
+  margin: 10px;
+  padding: 5px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.testimonials__name-mark {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonials__name-mark > p {
+  display: inline-block;
+
+}
+
+.testimonials__name-mark p:first-child {
+  width: 25%;
+}
+
+.testimonials__name-mark p:last-child{
+  width: 15%;
+}

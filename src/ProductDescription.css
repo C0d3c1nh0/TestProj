@@ -1,0 +1,19 @@
+.productInfo__description {
+  background-color: #000099;
+}
+
+.productInfo__description > h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.productInfo__description > h3 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.productInfo__description > p {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}

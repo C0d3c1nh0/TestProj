@@ -1,0 +1,43 @@
+.banner{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc( 100vh - 9.3vh );
+  width: 100%;
+  color: #ffffff;
+}
+
+.banner__img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.banner__text {
+  text-align: center;
+  width: 75%;
+}
+
+.banner__text > h1{
+  margin-bottom: 1rem;
+}
+
+.banner__text > p{
+  margin-bottom: 1rem;
+}
+
+.banner__button{
+  padding: 1.25vw;
+  font-family: 'Public Pixel';
+  color: #ffffff;
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.banner__button:hover{
+  color: red;
+}

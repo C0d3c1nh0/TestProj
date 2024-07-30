@@ -1,0 +1,124 @@
+.contact-form {
+  background-color: #000099;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.contact-form > h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-form__container {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 50vw;
+}
+
+.contact-form__info {
+  width: 50vw;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.contact-form__info > fieldset {
+  border: none;
+  width: 100%;
+}
+
+.contact-form__info > fieldset > legend{
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 10px;
+}
+
+
+.contact-form__personal-info {
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.contact-form__personal-info > label {
+  margin-bottom: 5px;
+}
+
+.contact-form__personal-info > label >input {
+  border: none;
+  border-radius: 5px;
+  font-family: 'Public Pixel';
+  height:1.5em;
+}
+
+.contact-form__personal-info > label >input:focus {
+  outline: 2px solid green;
+}
+
+.contact-form__personal-info > label >input:user-invalid {
+  outline: 1px solid red;
+}
+
+.contact-form__email {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.contact-form__email > label >input {
+  border: none;
+  border-radius: 5px;
+  font-family: 'Public Pixel';
+  height:1.5em;
+}
+
+.contact-form__email > label >input:focus {
+  outline: 2px solid green;
+}
+
+.contact-form__email > label >input:user-invalid {
+  outline: 2px solid red;
+}
+
+.contact-form__message {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.contact-form__message > label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.contact-form__message > textarea {
+  width: 100%;
+  max-width: 100%;
+  resize: none;
+  height: 3em;
+  max-height: 6em;
+  font-family: 'Public Pixel';
+}
+
+.contact-form__submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form__submit-button > button {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Public Pixel';
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form__submit-button > button:hover{
+  color: red;
+}

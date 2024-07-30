@@ -1,0 +1,55 @@
+.productInfo__image {
+  background-color: #000099;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productInfo__main-image > img{
+  border-radius: 16px;
+}
+
+.wrapper{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.productInfo__secondary-images {
+  width: 32.67%;
+  height: 77.56%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+}
+
+.side-image1 { grid-area: 1 / 1 / 2 / 2; }
+.side-image2 { grid-area: 1 / 2 / 2 / 3; }
+.camera-image1 { grid-area: 2 / 1 / 3 / 2; }
+.camera-image2 { grid-area: 2 / 2 / 3 / 3; }
+.line-of-smartphones { grid-area: 3 / 1 / 4 / 2; }
+.smartphone-image-full { grid-area: 3 / 2 / 4 / 3; }
+
+.productInfo__secondary-image{
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.camera-image1 > img {
+  border-radius: 10px;
+}
+
+.camera-image2 > img {
+  border-radius: 10px;
+}
+
+.productInfo__secondary-image > img {
+  height:100%;
+  width: 100%;
+  object-fit: contain;
+}
